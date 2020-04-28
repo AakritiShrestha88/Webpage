@@ -1,0 +1,64 @@
+html,
+body{
+    height: 100%;
+   
+}
+img{
+    max-width: 100%;
+}
+/* cover */
+#cover{
+    background:#222 url('img/nature-3194001_1920.jpg') center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 100%;
+    text-align: center;
+    display:flex; 
+    align-items: center; 
+    opacity: 0.95;
+   
+}
+
+#cover-caption{
+    width: 100%;
+   
+}
+
+.section-content{
+   padding:3.5rem 0;
+}
+.card{
+    padding: 10px;
+}
+#about{
+    background: url('img/woman-camera.jpg') center center no-repeat;
+ background-attachment: fixed;
+    background-size: cover;
+
+}
+.col-md-6{
+    padding: 40px;
+}
+.about-text{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+    font-size: 12px;
+    
+}
+.lead{
+    font-size: 16px;
+}
+h3{
+    font-size: 21px;
+}
+h5{
+    font-size: 17px; 
+}
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+  padding:2.5rem 0
+}
